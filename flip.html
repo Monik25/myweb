@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>techniks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <style type="text/css">
+  	.container
+  	{
+  		position: relative;
+  		width:200px;
+  		height: 300px;
+  		background-color: white;
+  	}
+  	.cards
+  	{
+  		position: relative;
+  		width: 100%;
+  		height: 100%;
+  		transform-style: preserve-3d;
+  		transition: all 0.5s ease;
+        background-color: yellow;
+        border-radius:20px;
+  	}
+  	.cards:hover{
+  			transform: rotateY(180deg);
+  			
+  		}
+.cardf
+{
+
+	position: absolute;
+  		width: 100%;
+  		height: 100%;
+  		backface-visibility: hidden;
+  		background-color: red;
+  		 border-radius:20px;
+}
+.cardb
+{
+	position: absolute;
+  		width: 100%;
+  		height: 100%;
+  	 backface-visibility: hidden;
+  		background-color: green;
+  		transform: rotateY(180deg);
+  		 border-radius:20px;
+}
+
+  </style>
+
+  <body>
+  	<div class="container">
+<br>
+  	<div class="cards">
+  		<div class="cardf">
+&nbsp&nbsphover for vedio
+  		  </div>
+  			<div class="cardb">
+          
+  	<iframe width="100%" height="150" src="https://www.youtube.com/embed/IFncZA5k_1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  			</div>
+  		</div>
+  	</div>
